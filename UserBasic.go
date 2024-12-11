@@ -5,4 +5,4 @@ import "github.com/jinzhu/gorm"
 type UserBasic struct {
 	gorm.Model
 }
-asdfasdfadfsasfdasdfasdfasdfaf
+asdfasdfadfaf
