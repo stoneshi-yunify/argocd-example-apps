@@ -1,0 +1,22 @@
+fetch("https://www.npmjs.com/search?q=cheerio", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "zh-CN,zh;q=0.9",
+    "cache-control": "no-cache",
+    "manifest-hash": "a411fb72bf186a3eeb3e",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-requested-with": "XMLHttpRequest",
+    "x-spiferack": "1",
+    "cookie": "__cfruid=7cfdfc143c1229a1e04ab9c8f3b9a5d30fbd7503-1695346799; __cf_bm=o7BG4ETZXOQGI5S_87gPLHgOL9EM_jBl6VgvCr9XXfE-1695349710-0-AYzGMVPkY+pnGQ3Xi6z3A0Hj9yLMyEKJgDuDHP24nXh4iI9UE14YcJQFsLb0GbczJTIbWD777Zcfb1NrjXXVeX0=",
+    "Referer": "https://www.npmjs.com/package/cheerio",
+    "Referrer-Policy": "strict-origin-when-cross-origin"
+  },
+  "body": null,
+  "method": "GET"
+});
