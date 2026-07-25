@@ -16,5 +16,29 @@ spec:
       containers:
       - image: docker.io/nginx:latest
         name: guestbook-ui
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: guestbook-ui
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: guestbook-ui
+  template:
+    metadata:
+      labels:
+        app: guestbook-ui
+    spec:
+      containers:
+      - image: docker.io/nginx:latest
+        name: guestbook-ui
+        limits:
+          cpu: 500m
+          memory: 1Gi
+        requests:
+          cpu: 1m
+          memory: 1Mi
         ports:
         - containerPort: 80
